@@ -1,4 +1,8 @@
 /* Estilos gerais */
+:root {
+    --second-color: #e71c92;
+  }
+
 body {
     font-family: 'Arial', sans-serif;
     background-color: #f9e3e3;
@@ -23,7 +27,7 @@ body {
     width: 300px;
     margin: 0 auto;
     overflow: hidden;
-    border: 5px solid #ff6f61;
+    border: 5px solid var(--second-color);
     border-radius: 10px;
 }
 
@@ -47,7 +51,7 @@ body {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    background-color: rgba(255, 111, 97, 0.7);
+    background-color: var(--second-color);
     border: none;
     color: white;
     padding: 10px;
@@ -93,7 +97,7 @@ body {
 
 .timer h2 {
     font-size: 24px;
-    color: #ff6f61;
+    color: var(--second-color);
 }
 
 .timer p {
@@ -119,13 +123,13 @@ body {
 .separator {
     border: 0;
     height: 2px;
-    background: #ff6f61;
+    background: var(--second-color);
     margin: 40px 0;
 }
 
 /* Estilo para o iframe (vídeo do YouTube) */
 .if {
-    border: 5px solid #ff6f61;
+    border: 5px solid var(--second-color);
     border-radius: 10px;
     margin: 20px 0;
 }
@@ -138,11 +142,11 @@ body {
 }
 
 .rt3 {
-    color: #ff6f61;
+    color: var(--second-color);
 }
 
 .title1 {
     text-align: center;
     font-size: 34px;
-    color: #ff6f61;
+    color: var(--second-color);
 }
