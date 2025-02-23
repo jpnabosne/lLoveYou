@@ -1,7 +1,7 @@
 /* Estilos gerais */
-element {
+:root {
     --second-color: #e71c92;
-  }
+}
 
 body {
     font-family: 'Arial', sans-serif;
